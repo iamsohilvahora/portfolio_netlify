@@ -769,12 +769,15 @@ a:hover {
 ======================================*/
 
 .work-box {
-  margin-bottom: 3rem;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   background-color: #fff;
-  border: 3px solid #6c5ce7;
-  height: 100%;
+  margin: 0.5rem 0rem;
+  padding: 0.5rem;
+  
+  border: 2px solid #6c5ce7;
+  height: 100vh;
+  
 }
 
 .work-box:hover img {
