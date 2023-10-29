@@ -202,7 +202,7 @@ a:hover {
 /*------/ Socials /------*/
 
 .socials {
-  padding: 1.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .socials ul li {
@@ -776,8 +776,8 @@ a:hover {
   padding: 0.5rem;
   
   border: 2px solid #6c5ce7;
-  height: 100vh;
-  
+/* height: 100vh; */
+  height: auto;
 }
 
 .work-box:hover img {
@@ -1269,4 +1269,8 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+
+.heading-center{
+  text-align: center;
 }
